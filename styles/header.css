@@ -1,0 +1,40 @@
+.header-bar{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 304px;
+  width: 620px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-right-width: 1px;
+  border-left-width: 1px;
+  border-right-color: white;
+  border-left-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.back-arrow{
+  font-size: 30px;
+  width: 50px;
+}
+.name-post{
+  flex: 1;
+}
+.header-icon-cnt{
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-icon{
+  width: 20px;
+}
+.display-name-h{
+  font-size: 20px;
+  font-weight: bold;
+}
+.display-post{
+  color: gray;
+}

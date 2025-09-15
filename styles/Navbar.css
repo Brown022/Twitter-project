@@ -1,0 +1,97 @@
+.navbar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 250px;
+  border-color: gray;
+  padding-left: 55px;
+  padding-top: 10px;
+  font-size: 19px;
+  overflow-y: auto;
+  scrollbar-color: rgb(68, 67, 67) rgb(29, 28, 28);
+  border-right-style: solid;
+  border-right-width:1px ;
+  border-right-color: rgba(255, 255, 255, 0.281);
+}
+.x-logo{
+  width: 29px;
+  margin-bottom: 15px;
+}
+.icons, .notifications-icon{
+  width: 27px;
+  margin-right: 20px;
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  margin-right: 15px;
+  justify-content: start;
+  align-items: center;
+  height: 50px;
+}
+.notification-container{
+  position: relative;
+}
+.ping{
+  position: absolute;
+  top: -6px;
+  left: 12px;
+  background-color: rgb(11, 105, 247);
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+
+}
+.post-button{
+  background-color: white;
+  color: black;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 95px;
+  padding-right: 95px;
+  border: none;
+  border-radius: 40px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: -15px;
+  margin-top: 20px;
+}
+.current-user{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+  margin-left: -15px;
+  position: relative;
+}
+.user-img-container{
+  margin-right: 15px;
+}
+.current-user-dp{
+  width: 50px;
+  height: 50px;
+  border-radius:25px;
+}
+.display-name-cnt{
+  font-weight: bolder;
+}
+.username{
+  color: gray;
+}
+.cred{
+  position: relative;
+}
+.tdots{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  margin-right: 40px;
+}
