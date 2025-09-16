@@ -4,7 +4,15 @@
   position: fixed;
   top: 0;
   left: 304px;
-  width: 620px;
+  right: 0;
+  background-color: black;
+  z-index: 100;
+}
+
+.header-bar-1{
+  display: flex;
+  flex-direction: row;
+  width: 550px;
   border-right-style: solid;
   border-left-style: solid;
   border-right-width: 1px;
@@ -15,13 +23,15 @@
   padding-right: 20px;
   padding-top: 3px;
   padding-bottom: 3px;
+  background-color: black;
+  
 }
 .back-arrow{
   font-size: 30px;
   width: 50px;
 }
 .name-post{
-  flex: 1;
+ width: 510px;
 }
 .header-icon-cnt{
   width: 60px;
@@ -37,4 +47,32 @@
 }
 .display-post{
   color: gray;
+}
+.header-bar-2{
+  width: 500px; 
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+ 
+}
+.search-bar{
+  background-color: black;
+  color: gray;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 28px;
+  padding-right: 80px;
+  border-radius: 40px;
+}
+.search-icon{
+  width: 15px;
+  margin-right: -20px;
+  margin-bottom: -10px;
+  margin-left: 5px;
+  z-index: 1;
 }

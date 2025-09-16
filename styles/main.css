@@ -1,0 +1,140 @@
+main{
+  display: flex;
+}
+
+.section-1{
+  width: 580px;
+  
+}
+.profile{
+  position: relative;
+}
+.profile-dp{
+  width: 120px;
+  border-radius: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile-dp-cnt{
+  border-style: solid;
+  border-color: black;
+  width: 120px;
+  border-radius: 80px;
+  border-width: 4px;
+  position: absolute;
+  left: 20px;
+  top: 130px;
+}
+.cover-dp-cnt{
+ 
+ 
+}
+.cover-dp{
+  width: 570px;
+}
+
+.bio-cnt{
+  height: 100px;
+  height: 250px;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.bio-button-cnt{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.tip-button{
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.edit-profile-button{
+   background-color: black;
+   color: white;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 40px;
+}
+
+.bio-info{
+  margin-top: 75px;
+}
+.get-verified-cnt{
+  display: flex;
+  align-items: center;
+}
+.get-verified-button{
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 140px;
+  height: 25px;
+  overflow:hidden ;
+  margin-left: 35px;
+}
+.twitter-verification{
+  width: 50px;
+}
+.name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.get-verified-cnt, .bio-username, .bio, .location, .follower-count{
+  margin-bottom: 6px;
+}
+.bio-username{
+  color: gray;
+}
+.bio-link{
+  color: rgb(11, 105, 247);
+}
+.location{
+  color: gray;
+  display: flex;
+  text-align: top;
+  font-size: 17px;
+}
+.location-image{
+  width: 20px;
+  margin-right: 4px;
+}
+.l-cnt{
+  display: flex;
+  margin-right: 12px;
+}
+.follower-count{
+  display: flex;
+  align-items: center;
+
+}
+.f-count{
+  margin-right: 20px;
+}
+.f{
+  color: gray;
+}
+
+.section-2{
+ 
+  
+  width: 450px;}
