@@ -1,32 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">                   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
   <title>Twitter clone</title>
   <link rel="stylesheet" href="styles/Navbar.css">
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>  
 <body>
-  <header class="header-bar">
-  <header class="header-bar-1">
-    <div class="back-arrow">&larr;</div>
-    <div class="name-post">
-      <div class="display-name-h">BROWN</div>
-      <div class="display-post">521 posts</div>
-    </div>
-    <div class="header-icon-cnt">
-      <img class="header-icon" src="icons/grok-icon.svg">
-       <img class="header-icon" src="icons/explore-icon.svg">
-    </div>
-  </header>
-
-  <header class="header-bar-2">
-    <div class="search-icon"><img src="icons/explore-icon.svg" class="search-icon"></div>
-    <input type="search" placeholder="Search" class="search-bar">
-  </header>
-  </header>
+ 
 
 
   <nav class="navbar">
@@ -112,7 +98,25 @@
 
   <main>
     <section class="section-1">
+      
       <div class="profile">
+       <header class="header-bar">
+  <header class="header-bar-1">
+    <div class="back-arrow">&larr;</div>
+    <div class="name-post">
+      <div class="display-name-h">BROWN</div>
+      <div class="display-post">521 posts</div>
+    </div>
+    <div class="header-icon-cnt">
+      <img class="header-icon" src="icons/grok-icon.svg">
+       <img class="header-icon" src="icons/explore-icon.svg">
+    </div>
+  </header>
+
+  
+  </header>
+        
+
       <div class="cover-dp-cnt"><img src="user-images/cover-picture.jpg" class="cover-dp"></div>
       <div class="bio-cnt">
         <div class="bio-info">
@@ -154,21 +158,58 @@
           <button class="edit-profile-button">Edit profile</button>
         </div>
 
-      </div>
-      <div class="profile-dp-cnt"><img src="user-images/profile-picture.jpg" class="profile-dp"></div>
-      </div>
-      <nav class="tabs">
+          <nav class="tabs">
 
         <div class="tab-cnt">
           <div class="tab">Posts</div>
+          <div class="blue-bar"></div>
+        </div>
+
+         <div class="tab-cnt">
+          <div class="tab">Replies</div>
+          <div class="blue-bar"></div>
+        </div>
+
+         <div class="tab-cnt">
+          <div class="tab">Highlights</div>
+          <div class="blue-bar"></div>
+        </div>
+
+         <div class="tab-cnt">
+          <div class="tab">Articles</div>
+          <div class="blue-bar"></div>
+        </div>
+
+         <div class="tab-cnt">
+          <div class="tab">Media</div>
+          <div class="blue-bar"></div>
+        </div>
+
+         <div class="tab-cnt">
+          <div class="tab">Likes</div>
           <div class="blue-bar"></div>
         </div>
        
        
 
       </nav>
+
+      </div>
+      <div class="profile-dp-cnt"><img src="user-images/profile-picture.jpg" class="profile-dp"></div>
+      
+    
+    </div>
+    
     </section>
     <section class="section-2">
+      
+      
+         <header class="header-bar-2">
+    <div class="search-icon"><img src="icons/explore-icon.svg" class="search-icon"></div>
+    <input type="search" placeholder="Search" class="search-bar">
+  </header>
+      </header>
+     
     
     </section>
   </main>

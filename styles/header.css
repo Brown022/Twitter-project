@@ -1,23 +1,22 @@
-.header-bar{
-  display: flex;
+
+
+.header-bar-1{
+   display: flex;
   flex-direction: row;
   position: fixed;
   top: 0;
-  left: 304px;
+  left: 299px;
   right: 0;
-  background-color: black;
   z-index: 100;
-}
-
-.header-bar-1{
   display: flex;
   flex-direction: row;
-  width: 550px;
+  width: 100%;
+  max-width: 620px;
   border-right-style: solid;
   border-left-style: solid;
   border-right-width: 1px;
   border-left-width: 1px;
-  border-right-color: white;
+  border-right-color: gray;
   border-left-color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -49,13 +48,18 @@
   color: gray;
 }
 .header-bar-2{
-  width: 500px; 
+   display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  right: 39px;
+  background-color: black;
+  z-index: 99;
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
   justify-content: center;
   padding: 8px;
- 
 }
 .search-bar{
   background-color: black;

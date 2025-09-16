@@ -15,6 +15,7 @@
   border-right-color: rgba(255, 255, 255, 0.281);
   z-index: 1000;
 }
+
 .x-logo{
   width: 29px;
   margin-bottom: 15px;
@@ -102,23 +103,24 @@
   display: flex;
   justify-content: space-between;
   height: 50px;
-  padding-left: 15px;
-  padding-right: 10px;
+  margin-top: 25px;
 }
 .tab-cnt{
 position: relative;
+}
+
+.tab-cnt:active .blue-bar{
+  opacity: 1;
+}
+.tab-cnt:active .tab{
+  color: white;
+  font-weight: bold;
 
 }
 .tab{
   color: gray;
-  
+}
 
-}
-.tab:active{
-  color: white;
-  font-weight: bold;
-  opacity: 1;
-}
 .blue-bar{
   background-color: rgb(11, 105, 247);
   width: 100%;
@@ -129,6 +131,7 @@ position: relative;
  bottom: 0;
  right: 0;
  left: 0;
+ opacity: 0;
 
 }
 

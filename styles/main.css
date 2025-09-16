@@ -1,13 +1,28 @@
 main{
   display: flex;
+  flex-direction: row;
 }
 
+
 .section-1{
-  width: 580px;
- 
+  width: 648px;
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: gray;
+  min-height: 10000vh;
 }
 .profile{
   position: relative;
+  border-bottom: solid;
+  border-bottom-width:1px ;
+  border-bottom-color:gray ;
+  width: 653px;
+  border-right: solid;
+  border-right-width: 1px;
+  border-right-color: gray;
+  margin-top: -5px;
+  margin-left: -5px;
+  
 }
 .profile-dp{
   width: 120px;
@@ -26,16 +41,15 @@ main{
   top: 130px;
 }
 .cover-dp-cnt{
-  
+  overflow: hidden;
+
 }
 .cover-dp{
-  width: 570px;
+  width: 100%;
 }
 
 .bio-cnt{
-  height: 100px;
-  
-  height: 250px;
+  height: 210px;
   position: relative;
   padding-left: 15px;
   padding-right: 10px;
@@ -46,7 +60,7 @@ main{
   align-items: center;
   position: absolute;
   right: 10px;
-  top: 5px;
+  top: -65px;
 }
 .tip-button{
   background-color: black;
@@ -135,6 +149,4 @@ main{
 }
 
 .section-2{
-  
-
   width: 450px;}
