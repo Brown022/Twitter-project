@@ -4,7 +4,7 @@ main{
 
 .section-1{
   width: 580px;
-  
+ 
 }
 .profile{
   position: relative;
@@ -26,8 +26,7 @@ main{
   top: 130px;
 }
 .cover-dp-cnt{
- 
- 
+  
 }
 .cover-dp{
   width: 570px;
@@ -35,6 +34,7 @@ main{
 
 .bio-cnt{
   height: 100px;
+  
   height: 250px;
   position: relative;
   padding-left: 15px;
@@ -135,6 +135,6 @@ main{
 }
 
 .section-2{
- 
   
+
   width: 450px;}
