@@ -1,25 +1,30 @@
 main{
   display: flex;
   flex-direction: row;
+
 }
 
+
+
+  
 
 .section-1{
   width: 648px;
   border-right: solid;
   border-right-width: 1px;
-  border-right-color: gray;
+  border-right-color: rgb(32, 30, 30);
   min-height: 10000vh;
+
 }
 .profile{
   position: relative;
   border-bottom: solid;
   border-bottom-width:1px ;
-  border-bottom-color:gray ;
+  border-bottom-color: rgb(32, 30, 30);
   width: 653px;
   border-right: solid;
   border-right-width: 1px;
-  border-right-color: gray;
+  border-right-color: rgb(32, 30, 30);;
   margin-top: -5px;
   margin-left: -5px;
   
@@ -107,7 +112,9 @@ main{
   margin-left: 35px;
 }
 .twitter-verification{
-  width: 50px;
+  width: 20px;
+  margin-right: 6px;
+  margin-left: 6px;
 }
 .name{
   font-size: 18px;
@@ -149,4 +156,261 @@ main{
 }
 
 .section-2{
-  width: 450px;}
+width: 450px;
+padding-left:37px ;
+padding-right: 40px;
+
+}
+
+.first-container{
+  width: 305px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(32, 30, 30);
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  position: relative;
+ 
+}
+.live{
+  font-size: 20px;
+  font-weight: bold;
+}
+.live-profile{
+  width: 18px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.verification{
+  width: 20px;
+  background-color: black;
+  margin-left: 3px;
+}
+.box-image{
+  width: 13px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  box-shadow: 1px 1px 1px rgba(255, 255,255, 0.2);
+  margin-left: 3px;
+  margin-right: 5px;
+}
+.hosting{
+  color: gray;
+  font-size: small;
+  font-weight: 400;
+}
+.hosting-user{
+  height: 40px;
+  display: flex;
+  align-items: center;
+font-size: 14px;
+font-weight: bold;
+}
+.tumbler{
+  width: 19px;
+  margin-right: 2px;
+}
+.live-topic{
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.floating-dp{
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+  display: flex;
+  align-items: center;
+  border: solid;
+  border-color: rgb(120, 86, 255);
+  width: 55px;
+  border-width: 2px;
+  border-radius: 20px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-right:10px ;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.float-dp{
+  width: 20px;
+  border-radius: 18px;
+}
+
+.second-container{
+ margin-top: 20px;
+  width: 305px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(32, 30, 30);
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.profiles-head{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.profiless{
+  display: flex;
+  margin-bottom: 25px;
+  
+}
+
+.profiless-cnt{
+  display: flex;
+  align-items: center;
+}
+.you-profile-cnt{
+  width: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.you-profile{
+  width: 40px;
+}
+.you-profile-m{
+  width: 40px;
+  border-radius: 20px;
+}
+.profile-name{
+  margin-right: 40px;
+}
+.profile-name-v{
+  display: flex;
+  font-weight: bold;
+  font-size: 15px;
+}
+.profile-name-u{
+  color: gray;
+  font-size: 15px;
+}
+.g-verif{
+  margin-left: 2px;
+}
+.follow-button{
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 15px;
+}
+
+.third-container{
+  margin-top: 20px;
+  width: 305px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(32, 30, 30);
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+}
+
+.what-head{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tv-show-preview{
+  display: flex;
+  flex-direction: row;
+}
+.tv-show-cnt{
+  margin-right: 10px;
+}
+.tv-show-dp{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.tv-show-name{
+  font-weight: bold;
+}
+.tv-show-status{
+  color: gray;
+}
+.advert{
+  position: relative;
+
+}
+.t-dots{
+  color: gray;
+  font-size: 25px;
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
+.advert-title{
+  font-weight: bold;
+}
+.advert-info{
+  color: gray;
+}
+.advertiser{
+  color: gray;
+}
+.promote-icon{
+  width: 13px;
+  height: 10px;
+  margin-right:4px ;
+}
+
+.trending{
+position: relative;
+}
+.trend-dots{
+  position: absolute;
+  top: 0;
+  right: 0;
+   font-size: 25px;
+  position: absolute;
+  color: gray;
+}
+
+
+.title{
+  color: gray;
+}
+.trend{
+  font-weight: bold;
+}
+.trend-number{
+  color: gray;
+}
+
+.what-head, .tv-show-preview, .advert, .trending{
+  margin-bottom: 25px;
+}
+.terms{
+  color: rgb(113, 118, 123);
+  margin-top: 30px;
+  width: 400px;
+  line-height: 30px;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- Gray document background -->
+  <rect width="24" height="24" fill="#B0B0B0"/>
+  <!-- Black arrow inside -->
+  <path fill="#000000" d="M16 15h-2v-3.59l-5.293 5.3-1.414-1.42L11.581 10H8.996V8h7v7z"/>
+</svg>
